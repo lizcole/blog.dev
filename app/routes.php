@@ -14,7 +14,7 @@
 Route::get('/', function()
 {
 	return View::make('hello');
-});
+}); 
 
 Route::get('resume', function()
 {
@@ -24,4 +24,13 @@ Route::get('resume', function()
 Route::get('portfolio', function()
 {
 	return "This is my portfolio";
+});
+
+Route::get('rolldice/{guess}', function($guess){
+	$roll_dice = mt_rand(1, 6); 
+	$data = [
+		'roll_dice' => $roll_dice,
+		'guess' => $guess
+	];
+	return View::make('roll_dice', $data);
 });

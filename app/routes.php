@@ -11,26 +11,26 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-}); 
+Route::get('/', 'HomeController@homePage');
 
-Route::get('resume', function()
-{
-	return "This is my resume";
-});
+Route::get('hello{name}', 'HomeController@showWelcome', ['Liz']);
 
-Route::get('portfolio', function()
-{
-	return "This is my portfolio";
-});
+Route::get('rolldice', 'HomeController@showGuesses');
+Route::get('rolldice/{guess}', 'HomeController@rollDice');
 
-Route::get('rolldice/{guess}', function($guess){
-	$roll_dice = mt_rand(1, 6); 
-	$data = [
-		'roll_dice' => $roll_dice,
-		'guess' => $guess
-	];
-	return View::make('roll_dice', $data);
-});
+Route::get('resume', 'HomeController@showResume');
+Route::get('portfolio', 'HomeController@showPortfolio');
+
+
+Route::get('login', 'HomeController@showLogin');
+Route::post('login', 'HomeController@doLogin');
+Route::get('logout', 'HomeController@doLogout');
+
+Route::resource('posts', 'PostsController');
+
+// Route::get('index', function(){
+// 	$post = Post::all();
+
+// });
+
+?>

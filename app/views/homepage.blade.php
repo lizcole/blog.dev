@@ -18,28 +18,27 @@
 	<img id='logo' src="pictures/logo2.png">
 </div>
 
-<div class="container">
-	<div class='row row-centered'>
-		<div class='col-md-4 col-centered'>
-			<a href="{{ action('HomeController@showResume') }}">
-				<div id='pool'>resume</div>
-			</a>
-		</div>
 
-		<div class='col-md-4 col-centered'>
-			<a href="#"><!-- create about page -->
-				<div id='lizcole'>about</div>
-			</a> 
-		</div>
+<div class='row'>
+	<div class='col-md-4 text-centered'>
+		<a href="#resume">
+			<div id='pool'>resume</div>
+		</a>
+	</div>
 
-		<div class='col-md-4 col-centered'>
-			<a href="{{ action('HomeController@showPortfolio') }}">
-				<div id="mountain">Portfolio</div>
-			</a>
-		</div>
+	<div class='col-md-4 text-centered'>
+		<a href="#"><!-- create about page -->
+			<div id='lizcole'>about</div>
+		</a> 
+	</div>
 
+	<div class='col-md-4 text-centered'>
+		<a href="">
+			<div id="mountain">Portfolio</div>
+		</a>
 	</div>
 </div>
+
 
 		<div class='resume-doc'>
 			<p id='resume-text'>Resume</p>
@@ -49,17 +48,19 @@
 	<div class='row'>
 		<div class="page col-md-12 col-centered">
 				
-<!-- start sample text -->
+<!-- Resume -->
+<a name ='resume'></a>
+<div id='resume'>
 <body>
 	<header id="header">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-9 col-sm-push-3">
 					<h1>
-						Richard Hendriks
+						Liz Cole
 					</h1>
 					<h2>
-						Programmer
+						Front End Developer
 					</h2>
 				</div>
 			</div>
@@ -75,17 +76,11 @@
 			<div class="row">
 			<div class="col-sm-6">
 				<strong>Email</strong>
-				<div class="email">richard.hendriks@gmail.com</div>
+				<div class="email">liz.cole1227@gmail.com</div>
 			</div>
 			<div class="col-sm-6">
 				<strong>Phone</strong>
-				<div class="phone">(912) 555-4321</div>
-			</div>
-			<div class="col-sm-6">
-				<strong>Website</strong>
-				<div class="website">
-					<a href="http://richardhendricks.com">http://richardhendricks.com</a>
-				</div>
+				<div class="phone">(210) 831-8982</div>
 			</div>
 			</div>
 		</div>
@@ -95,7 +90,11 @@
 			<h3>About</h3>
 		</aside>
 		<div class="col-sm-9">
-			<p>Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!</p>
+			<p>I have always been passionate about implementing art into every aspect of my life. After graduating with a degree in art, I discovered there are more ways than one to utilize this degree. This realization jumpstarted me into coding.</p>
+
+			<p>I love taking on new projects because they lead to learning new information and push me to find better ways of creating, building, and designing websites. I have worked with HTML5/CSS3, jQuery, PHP, Laravel, MySequal, and Git just to name a few.</p>
+
+			<p>I would like to work in an environment which values learning and encourages the personal development of involved employees.</p>
 		</div>
 	</section>
 	<section id="profiles" class="row">
@@ -106,21 +105,21 @@
 			<div class="row">
 				<div class="col-sm-6">
 					<strong class="network">
-						Twitter
+						Github
 					</strong>
 					<div class="username">
 						<div class="url">
-							<a href="https://twitter.com/neutralthoughts">neutralthoughts</a>
+							<a href="https://github.com/lizcole">LizCole</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-6">
 					<strong class="network">
-						SoundCloud
+						LinkedIn
 					</strong>
 					<div class="username">
 						<div class="url">
-							<a href="https://soundcloud.com/dandymusicnl">dandymusicnl</a>
+							<a href="https://linkedin.com/in/thelizcole">Liz Cole</a>
 						</div>
 					</div>
 				</div>
@@ -136,25 +135,20 @@
 			<div class="row">
 			<div class="col-sm-12">
 				<h4 class="strike-through">
-					<span>Pied Piper</span>
+					<span>Freelance Front End Developer</span>
 					<span class="date">
-						2013-12-01 — 2014-12-01
+						2014-Present
 					</span>
 				</h4>
-				<div class="website pull-right">
-					<a href="http://piedpiper.com">http://piedpiper.com</a>
-				</div>
-				<div class="position">
-					CEO/President
-				</div>
 				<div class="summary">
-					<p>Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.</p>
+					<p>Completed a 3 month intensive bootcamp at Codeup where I learned HTML5/CSS3, PHP, Laravel, MySQL, JavaScript, and jQuery.</p>
 				</div>
 				<h4>Highlights</h4>
 				<ul class="highlights">
-					<li class="bullet">Build an algorithm for artist to detect if their music was violating copy right infringement laws</li>
-					<li class="bullet">Successfully won Techcrunch Disrupt</li>
-					<li class="bullet">Optimized an algorithm that holds the current world record for Weisman Scores</li>
+					<li class="bullet">Was the front end developer for <a href="https://mylocal.beer">MyLocal Beer</a>.Defined the branding for the site and company with photoshop, css and html. Mapped the ui and ux for the website for a seamless user experience.
+					The application can be used to search for local brews that are being served in local bars. Built by a team using Laravel, PHP, MySQL, JavaScript, jQuery, and Bootstrap. Development was done with Vagrant environment. Version control with Git and GitHub. Implemented Google API and Brewery DB API. Features user login and user roles with confide and entrust, location search, and the ability for users(breweries) to add or edit beers.</li>
+					<li class="bullet">Built a whack-a-mole game with PHP, javascript, jquery, html, css, and photoshop</li>
+					<li class="bullet">Build a Planner witha todo list and address book with PHP, html, css, and photoshop</li>		
 				</ul>
 			</div>
 			</div>
@@ -169,24 +163,20 @@
 			<div class="row">
 			<div class="col-sm-12">
 				<h4 class="strike-through">
-					<span>CoderDojo</span>
+					<span>Big Brother Big Sister</span>
 					<span class="date">
-						2012-01-01 — 2013-01-01
+						2014-Present
 					</span>
 				</h4>
 				<div class="website pull-right">
-					<a href="http://coderdojo.com/">http://coderdojo.com/</a>
+					<a href="http://www.bigmentor.org">http://bigmentor.org/</a>
 				</div>
 				<div class="position">
-					Teacher
+					Big Sister
 				</div>
 				<div class="summary">
-					<p>Global movement of free coding clubs for young people.</p>
+					<p>Mentor a little and provide a positive influence in their life.</p>
 				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">Awarded &#x27;Teacher of the Month&#x27;</li>
-				</ul>
 			</div>
 			</div>
 		</div>
@@ -200,80 +190,26 @@
 			<div class="row">
 			<div class="col-sm-12">
 				<h4 class="strike-through">
-					<span>University of Oklahoma</span>
+					<span>University of Texas at San Antonio</span>
 					<span class="date">
-						2011-06-01 — 2014-01-01
+						2008—2013
 					</span>
 				</h4>
 				<div class="area">
-					Information Technology
+					Art
 				</div>
 				<div class="studyType">
-					Bachelor
+					Bachelor of Arts
 				</div>
-				<h4>Courses</h4>
+				<h4>Minor</h4>
 				<ul class="courses">
-					<li>DB1101 - Basic SQL</li>
-					<li>CS2011 - Java Introduction</li>
+					<li>Business Administration</li>
 				</ul>
 			</div>
 			</div>
 		</div>
 	</section>
 	
-	<section id="awards" class="row">
-		<aside class="col-sm-3">
-			<h3>Awards</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Digital Compression Pioneer Award</span>
-				</h4>
-				<div class="date pull-right">
-					<em>Awarded</em>
-					2014-11-01
-				</div>
-				<div class="awarder">
-					<em>by</em>
-					<strong>Techcrunch</strong>
-				</div>
-				<div class="summary">
-					There is no spoon.
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-	
-	<section id="publications" class="row">
-		<aside class="col-sm-3">
-			<h3>Publications</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Video compression for 3d media</span>
-					<span class="date">
-						2014-10-01
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"></a>
-				</div>
-				<div class="publisher">
-					<em>Published by</em>
-					<strong>Hooli</strong>
-				</div>
-				<div class="summary">
-					<p>Innovative middle-out compression algorithm that changes the way we store data.</p>
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
 	
 	<section id="skills" class="row">
 		<aside class="col-sm-3">
@@ -289,72 +225,39 @@
 					<li>HTML</li>
 					<li>CSS</li>
 					<li>Javascript</li>
+					<li>jQuery</li>
+					<li>PHP</li>
+					<li>Laravel</li>
+					<li>MySQL</li>
+					<li>Sequal Pro</li>
+					<li>Git & GitHub</li>
+					<li>SEO</li>
+					<li>Google Adwords</li>
+					<li>Google Analytics</li>
 				</ul>
 			</div>
 			<div class="col-sm-6">
 				<div class="name">
-					<h4>Compression</h4>
+					<h4>Art</h4>
 				</div>
 				<ul class="keywords">
-					<li>Mpeg</li>
-					<li>MP4</li>
-					<li>GIF</li>
+					<li>Adobe Photoshop</li>
+					<li>Adobe Illustrator</li>
+					<li>CorelDraw</li>
 				</ul>
 			</div>
 			</div>
-		</div>
-	</section>
-
-	<section id="languages" class="row">
-		<aside class="col-sm-3">
-			<h3>Languages</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<div class="language">
-					<strong>English</strong>
-				</div>
-				<div class="fluency">
-					Native speaker
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="interests" class="row">
-		<aside class="col-sm-3">
-			<h3>Interests</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
 			<div class="col-sm-6">
 				<div class="name">
-					<h4>Wildlife</h4>
+					<h4>Office</h4>
 				</div>
 				<ul class="keywords">
-					<li>Ferrets</li>
-					<li>Unicorns</li>
+					<li>Microsoft Office</li>
+					<li>Proficient with Mac</li>
+					<li>Knowlege of Wordpress</li>
+					<li>Social Media</li>
+					<li>Quickbooks</li>
 				</ul>
-			</div>
-			</div>
-		</div>
-	</section>
-	
-	<section id="references" class="row">
-		<aside class="col-sm-3">
-			<h3>References</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<blockquote class="reference">
-					<p>It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company.</p>
-					<p class="name">
-						<strong>— Erlich Bachman</strong>
-					</p>
-				</blockquote>
 			</div>
 			</div>
 		</div>
@@ -363,6 +266,7 @@
 </div>
 
 </body>
+</div>
 <!-- end sample text -->
 		</div>
 	</div>

@@ -20,9 +20,8 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Blog</a></li>
             <li><a href="{{ action('HomeController@showPortfolio') }}">Portfolio</a></li>
-            <li><a href="{{ action('HomeController@showResume') }}">Resume</a></li>
+            <li><a href="#resume">Resume</a></li>
           </ul>
               <img id='logo-small'src="/pictures/logo-small.png"> 
         </div><!--/.nav-collapse -->

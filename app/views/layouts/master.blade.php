@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Laravel Blog</title>
+    <title>Liz Cole</title>
     <!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
 
 	<link rel="stylesheet" type="text/css" href="/stylesheet.css">
+
+	<link rel="icon" type="image/png" href="/pictures/faviconlc1.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="/pictures/faviconlc2.png" sizes="32x32">
+
 	@yield('topscript')
 </head>
 <body>

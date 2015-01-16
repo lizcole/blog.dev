@@ -14,31 +14,33 @@
 
 @include('partials.navbar_home')
 
-<div id='logo-div'>
-	<img id='logo' src="pictures/logo2.png">
+<div class='row'id='logo-div'>
+	<div class='col-md-4 col-md-offset-4 text-center'>
+		<img id='logo' src="pictures/logo2.png">
+	</div>
 </div>
-
 
 <div class='row'>
-	<div class='col-md-4 text-centered'>
-		<a href="#resume">
-			<div id='pool'>resume</div>
-		</a>
-	</div>
-
-	<div class='col-md-4 text-centered'>
-		<a href="#"><!-- create about page -->
-			<div id='lizcole'>about</div>
-		</a> 
-	</div>
-
-	<div class='col-md-4 text-centered'>
-		<a href="">
-			<div id="mountain">Portfolio</div>
-		</a>
+	<div class='col-md-12'>
+		<div class='portfolio-doc'>
+			<p id='portfolio-text'>About</p>
+		</div>
 	</div>
 </div>
 
+<a name='about'></a>
+<div class='container'>
+	<div class='row'>
+		<div class="page about col-md-12 col-centered">
+			<img id='headshot'src="/pictures/headshot-bright.png">
+			<p>I have always been passionate about implementing art into every aspect of my life. After graduating with a degree in art, I discovered there are more ways than one to utilize this degree. This realization jumpstarted me into coding.</p>
+
+			<p>I love taking on new projects because they lead to learning new information and push me to find better ways of creating, building, and designing websites. I have worked with HTML5/CSS3, jQuery, PHP, Laravel, MySequal, and Git just to name a few.</p>
+
+			<p>I would like to work in an environment which values learning and encourages the personal development of involved employees.</p>
+		</div>
+	</div>
+</div>
 
 		<div class='resume-doc'>
 			<p id='resume-text'>Resume</p>
@@ -83,18 +85,6 @@
 				<div class="phone">(210) 831-8982</div>
 			</div>
 			</div>
-		</div>
-	</section>
-	<section id="about" class="row">
-		<aside class="col-sm-3">
-			<h3>About</h3>
-		</aside>
-		<div class="col-sm-9">
-			<p>I have always been passionate about implementing art into every aspect of my life. After graduating with a degree in art, I discovered there are more ways than one to utilize this degree. This realization jumpstarted me into coding.</p>
-
-			<p>I love taking on new projects because they lead to learning new information and push me to find better ways of creating, building, and designing websites. I have worked with HTML5/CSS3, jQuery, PHP, Laravel, MySequal, and Git just to name a few.</p>
-
-			<p>I would like to work in an environment which values learning and encourages the personal development of involved employees.</p>
 		</div>
 	</section>
 	<section id="profiles" class="row">
@@ -145,7 +135,7 @@
 				</div>
 				<h4>Highlights</h4>
 				<ul class="highlights">
-					<li class="bullet">Was the front end developer for <a href="https://mylocal.beer">MyLocal Beer</a>.Defined the branding for the site and company with photoshop, css and html. Mapped the ui and ux for the website for a seamless user experience.
+					<li class="bullet">Was the front end developer for <a href="http://mylocal.beer">MyLocal Beer</a>.Defined the branding for the site and company with photoshop, css and html. Mapped the ui and ux for the website for a seamless user experience.
 					The application can be used to search for local brews that are being served in local bars. Built by a team using Laravel, PHP, MySQL, JavaScript, jQuery, and Bootstrap. Development was done with Vagrant environment. Version control with Git and GitHub. Implemented Google API and Brewery DB API. Features user login and user roles with confide and entrust, location search, and the ability for users(breweries) to add or edit beers.</li>
 					<li class="bullet">Built a whack-a-mole game with PHP, javascript, jquery, html, css, and photoshop</li>
 					<li class="bullet">Build a Planner witha todo list and address book with PHP, html, css, and photoshop</li>		
@@ -175,7 +165,7 @@
 					Big Sister
 				</div>
 				<div class="summary">
-					<p>Mentor a little and provide a positive influence in their life.</p>
+					<p>Mentor a 'Little' and provide a positive influence in their life.</p>
 				</div>
 			</div>
 			</div>
@@ -272,60 +262,7 @@
 	</div>
 </div>
 
-<div class='row'>
-	<div class='col-md-12'>
-		<div class='portfolio-doc'>
-			<p id='portfolio-text'>Portfolio</p>
-		</div>
-	</div>
-</div>
 
-<div class='container'>
-	<div class='row'>
-					<div class="page col-md-12 col-centered">
-			<p >
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-			<p>	
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-			<p>	
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>		
-			<p>	
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-		</div>
-	</div>
-</div>
 
 
 

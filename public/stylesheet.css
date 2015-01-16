@@ -85,12 +85,15 @@ h3{
 }
 
 #logo{
-  position: relative;
-  margin: auto;
-  left: 50%;
-  margin-left: -102px;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
+#headshot{
+	float: left;
+	margin: 10px;
+}
 
 #lizcole {
 	background-image: url('/pictures/headshot-bright.png');
@@ -102,9 +105,9 @@ h3{
 	margin: auto;
 }
 
-#lizcole:hover{
+/*#lizcole:hover{
 	background-image: url('/pictures/headshot-about.png');
-}
+}*/
 
 #mountain:hover{
 	background-image: url('/pictures/portfolio-bright.png');
@@ -137,6 +140,13 @@ h3{
 .page{
 	background-color: white;
 	margin: auto;
+}
+
+.about{
+	margin-top: 20px;
+/*	text-align: center;
+*/	font-family: Lato, sans-serif;
+	font-size: 20px;
 }
 
 #resume-text{

@@ -25,10 +25,10 @@
 
 	<div class='row' id='footer'>
 		<div class='col-md-4 col-md-offset-4'>
-				<p><a href="{{ action('PostsController@index') }}">Blog</a></p>
-				<p><a href="#">LinkedIn</a></p>
+<!-- 				<p><a href="{{ action('PostsController@index') }}">Blog</a></p>
+ --><!-- 			<p><a href="#">LinkedIn</a></p>
 				<p><a href="#">Facebook</a></p>
-				<p><a href="#">Instagram</a></p>
+				<p><a href="#">Instagram</a></p> -->
 		</div>
 	</div>
 
